@@ -47,10 +47,6 @@ Docker Desktop to their initial state, the same as when Docker Desktop was first
 
 If you are a Mac or Linux user, you also have the option to **Uninstall** Docker Desktop from your system.
 
-> [!TIP]
->
-> If you need to contact support, select the **Question mark** icon near the top-right corner of Docker Dashboard, and then select **Contact support**. Users with a paid Docker subscription can use this option to send a support request.
-
 ## Diagnose
  
 > [!TIP]
@@ -206,7 +202,7 @@ Docker Desktop contains a self-diagnose tool which can help you identify some co
 2. In PowerShell, run the self-diagnose tool:
 
    ```console
-   $ & "C:\Program Files\Docker\Docker\resources\com.docker.diagnose.exe" check
+   $ & "C:\Program Files\Docker\Docker\resources\com.docker.diagnose.exe" gather
    ```
 
 {{< /tab >}}
@@ -221,7 +217,7 @@ Docker Desktop contains a self-diagnose tool which can help you identify some co
 2. Run the self-diagnose tool:
 
    ```console
-   $ /Applications/Docker.app/Contents/MacOS/com.docker.diagnose check
+   $ /Applications/Docker.app/Contents/MacOS/com.docker.diagnose gather
    ```
 
 {{< /tab >}}
@@ -232,7 +228,7 @@ Docker Desktop contains a self-diagnose tool which can help you identify some co
 2. Run the self-diagnose tool:
 
    ```console
-   $ /opt/docker-desktop/bin/com.docker.diagnose check
+   $ /opt/docker-desktop/bin/com.docker.diagnose gather
    ```
 
 {{< /tab >}}
